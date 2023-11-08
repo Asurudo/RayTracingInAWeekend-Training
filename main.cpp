@@ -29,7 +29,7 @@ vec3 randomInUnitDisk(){
         p = vec3(myrandengine.myRandGetReal<double>(-1, 1),
         myrandengine.myRandGetReal<double>(-1, 1),
         0);
-    } while(p.squared_length() >= 1. 0);
+    } while(p.squared_length() >= 1.0);
     return p;
 }
 
